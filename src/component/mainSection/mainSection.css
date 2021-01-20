@@ -1,0 +1,48 @@
+
+section{
+    position: absolute;
+    top:3rem;
+    padding-top : 30px;
+    width: 75%;
+    border:3px solid blue;
+
+
+}
+.post{
+    position: relative;
+    padding: 1px;
+    margin: 2rem 10px 0 10rem;
+    box-sizing: content-box;
+    border: solid #0e0d0d 5px;
+}
+.post::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.blog-title{
+
+}
+.post-content{
+    margin-top: 0;
+    width: 70%;
+}
+.posts-list{
+    position: absolute;
+    left:20px;
+
+
+}
+.post-title{
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-top: 4px;
+    color: green;
+}
+.post-img{
+    /* position: absolute;
+    top:25px;
+    right: 24px; */
+    float: right;
+    margin:0 1rem 1rem 0;
+}

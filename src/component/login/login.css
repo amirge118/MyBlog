@@ -1,0 +1,12 @@
+.loginbut{
+width: 20%;
+}
+.namelog{
+width: 30%;
+}
+.divlogin{
+display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid black;
+font-size:10px;
+}
