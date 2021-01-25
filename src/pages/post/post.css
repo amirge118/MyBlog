@@ -1,0 +1,9 @@
+.post{
+    position: relative;
+    padding: 1px;
+    margin: 20px;
+    box-sizing: content-box;
+    border: solid #0e0d0d 5px;
+
+
+}
