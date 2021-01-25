@@ -26,12 +26,13 @@ class App extends React.Component {
 
              <div className="body">
                  <Switch>
-                      <Route path="/" exact component={Home} />
+                      {/* <Route path="/" exact component={Home} />
                       <Route path="/aboutme"  component={Aboutme} />
                       <Route path="/contact"  component={Contact} />
                       <Route path="/post/:id" component={Opost}/>
                       <Route path="/login" component={Login}/>
-                      
+                       */}
+                       hiiiii
                  </Switch>
              </div>
              </div>

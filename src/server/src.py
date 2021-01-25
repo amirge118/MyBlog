@@ -92,8 +92,6 @@ def check_login():
         abort(401)
 
 
-
-
 def get_all_post():
     query = "select id, title, content, published, author from posts"
     cursor = db.cursor()
