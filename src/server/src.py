@@ -5,6 +5,7 @@ import uuid
 import bcrypt
 
 
+
 db = mysql.connect(
     host="localhost",
     user="root",
